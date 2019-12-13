@@ -1,0 +1,30 @@
+{
+  "name": "mangaman-sch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -r esm index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kengru/mangaman-sch.git"
+  },
+  "author": "kengru",
+  "license": "MIT",
+  "homepage": "https://github.com/kengru/mangaman-sch#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "node-cron": "^2.0.3",
+    "node-fetch": "^2.6.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
