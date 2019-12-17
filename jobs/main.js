@@ -1,15 +1,10 @@
 import rp from "request-promise";
 import cheerio from "cheerio";
 
-const logIn = id => {
-  const options = {
-    method: "POST",
-    uri: `${process.env.API}/auth/login`,
-    body: {
-        email: process.env.ADMIN_EMAIL,
-        password: process.env.ADMIN_PWD
-    }
-  }
+import login from "../helpers/login";
+
+const mainFlow = async () => {
+
 }
 
 const fetchJaiminis = id => {
@@ -34,4 +29,4 @@ const fetchJaiminis = id => {
   // console.log($("#container > div.sorry").html());
 };
 
-export default fetchMangas;
+export default mainFlow;
