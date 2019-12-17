@@ -7,7 +7,8 @@ const logIn = async () => {
     body: {
       email: process.env.ADMIN_EMAIL,
       password: process.env.ADMIN_PWD
-    }
+    },
+    json: true
   };
   try {
     const body = await rp(options);

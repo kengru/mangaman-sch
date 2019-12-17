@@ -20,7 +20,7 @@ const ufJaiminis = async id => {
     const $ = await rp(options);
     const date = new Date();
     console.log(
-      `Searched for ${body.title} at ${date.toLocaleString(
+      `Searched for ${manga.title} at ${date.toLocaleString(
         "en-US"
       )}, there is a new chapter.`
     );

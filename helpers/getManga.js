@@ -6,7 +6,8 @@ const getManga = async id => {
     uri: `${process.env.API}/mangas/${id}`,
     headers: {
       "Authorization": `Bearer ${process.env.TOKEN}`
-    }
+    },
+    json: true
   };
 
   try {
