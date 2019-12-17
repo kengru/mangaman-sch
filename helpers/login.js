@@ -14,7 +14,7 @@ const logIn = async () => {
     process.env.TOKEN = body.token;
     process.env.USERID = body.userId;
   } catch (err) {
-    console.log(err.message);
+    console.log(err);
   }
 };
 
